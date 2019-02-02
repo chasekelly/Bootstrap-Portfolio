@@ -1,0 +1,66 @@
+body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  /*
+    The width of the wrapper will be 1024px
+    at browser widths above 768px
+  */
+  .wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content {
+      width: 100%;
+    }
+
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  @media screen and (max-width: 320px) {
+
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content {
+      width: 100%;
+    }
+
+  }
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 168px) {
+
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content {
+      width: 100%;
+    }
+  
+  }
